@@ -4,7 +4,7 @@ USE CSUS;
 SHOW tables;
 
 CREATE TABLE students(
-	id			INT	NOT NULL,	AUTO_INCREMENT,
+	id		INT		NOT NULL,	AUTO_INCREMENT,
 	student_id	VARCHAR(10)	NOT NULL,	
 	email		VARCHAR(100)	NOT NULL,	
 	firstname	VARCHAR(100)	NOT NULL,	
