@@ -4,12 +4,12 @@ USE CSUS;
 SHOW tables;
 
 CREATE TABLE students(
-	id			INT				NOT NULL,	AUTO_INCREMENT,
-	student_id	VARCHAR(10)		NOT NULL,	
+	id			INT	NOT NULL,	AUTO_INCREMENT,
+	student_id	VARCHAR(10)	NOT NULL,	
 	email		VARCHAR(100)	NOT NULL,	
 	firstname	VARCHAR(100)	NOT NULL,	
-	lastname	VARCHAR(40)		NOT NULL,	
-	birthday	DATE			NOT NULL,	
+	lastname	VARCHAR(40)	NOT NULL,	
+	birthday	DATE		NOT NULL,	
 	PRIMARY KEY(id)
 	UNIQUE KEY(student_id)
 );
